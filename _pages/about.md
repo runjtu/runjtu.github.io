@@ -13,8 +13,8 @@ author_profile: true
 .home-card::before { content: ""; position: absolute; left: -6px; top: .65rem; width: 10px; height: 10px; border-radius: 50%; background: #477b95; }
 .home-card h3 { margin: .05rem 0 .22rem; font-size: 1.06rem; line-height: 1.35; }
 .home-card .institution { display: flex; align-items: center; gap: .5rem; color: #43576a; font-size: .95rem; margin-bottom: .3rem; }
-.institution-icon, .education-icon { width: 1.5rem; height: 1.5rem; flex: none; object-fit: contain; border-radius: .2rem; }
-.institution-icon[src$="tongji.jpg"] { object-fit: cover; object-position: left center; }
+.institution-icon, .education-icon { width: 1.75rem; height: 1.75rem; flex: none; object-fit: contain; border-radius: .2rem; }
+.institution-icon[src$="tongji-hd.png"] { width: 2rem; height: 2rem; }
 .institution-icon[src$="sinotruk.webp"] { object-fit: cover; object-position: center 25%; }
 .education-list { list-style: none; padding-left: 0; }
 .education-list li { display: flex; align-items: center; gap: .7rem; margin: .55rem 0; }
@@ -123,7 +123,7 @@ Developed LiDAR-to-OpenStreetMap descriptors and combined localization candidate
 </div>
 <div class="home-card" markdown="1">
 ### Self-Driving Simulation in Unstructured Terrains
-<span class="institution"><img class="institution-icon" src="/images/institutions/tongji.jpg" alt="" aria-hidden="true">Tongji University</span>
+<span class="institution"><img class="institution-icon" src="/images/institutions/tongji-hd.png" alt="" aria-hidden="true">Tongji University</span>
 <span class="home-meta">Nov 2023 – Nov 2024 · Research Intern</span>
 
 Built semantic maps, vehicle dynamics models, and planning baselines for the [OnSite-Mine benchmark](https://github.com/runjtu/OnSite-unstructured-road-benchmark).
@@ -143,6 +143,13 @@ Worked on a map-building pipeline for unmanned mining trucks, including sensor c
   <li><img class="education-icon" src="/images/institutions/tsinghua.png" alt="" aria-hidden="true"><span>Tsinghua University, Ph.D. in Electronic and Communication Engineering, 2026–Present</span></li>
   <li><img class="education-icon" src="/images/institutions/sjtu.png" alt="" aria-hidden="true"><span><strong>Shanghai Jiao Tong University</strong>, M.Eng. in Mechanical Engineering, 2023–2026</span></li>
   <li><img class="education-icon" src="/images/institutions/xjtu.png" alt="" aria-hidden="true"><span><strong>Xi'an Jiaotong University</strong>, B.Eng. in Mechanical Engineering, 2019–2023</span></li>
+</ul>
+
+### Exchange & Visiting
+
+<ul class="education-list">
+  <li><img class="education-icon" src="/images/institutions/nus.webp" alt="" aria-hidden="true"><span><strong>National University of Singapore</strong>, School of Computing · Summer School in Computer Science · May–Aug 2022</span></li>
+  <li><img class="education-icon" src="/images/institutions/ntu-taiwan.png" alt="" aria-hidden="true"><span><strong>National Taiwan University</strong>, Department of Mechanical Engineering · Semester Exchange · Jul 2021–Jan 2022</span></li>
 </ul>
 
 ## Honors and Awards
