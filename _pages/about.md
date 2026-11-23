@@ -31,7 +31,7 @@ author_profile: true
 </style>
 
 <div class="home-lead" markdown="1">
-I am **Runheng Zuo (左润衡)**, a first-year Ph.D. student at Tsinghua University, supervised by Prof. [Xiao-Ping Zhang](https://scholar.google.com/citations?user=1fzb_z8AAAAJ) (IEEE Fellow). I received my M.Eng. from Shanghai Jiao Tong University and my B.Eng. from Xi'an Jiaotong University. My research spans visual localization, vision-language models, low-level vision, and efficient multimodal inference.
+I am **Runheng Zuo (左润衡)**, a first-year Ph.D. student at Tsinghua University, supervised by Prof. [Xiao-Ping Zhang](https://scholar.google.com/citations?user=1fzb_z8AAAAJ) (IEEE Fellow). I received my M.Eng. from Shanghai Jiao Tong University and my B.Eng. from Xi'an Jiaotong University. My research spans general place recognition, low-level vision applications, vision-language models, and efficient multimodal inference.
 </div>
 
 ## News
@@ -44,7 +44,7 @@ I am **Runheng Zuo (左润衡)**, a first-year Ph.D. student at Tsinghua Univers
 
 ## Research Interests
 
-Visual localization and place recognition · Vision-language models and image restoration · Efficient multimodal inference
+General place recognition, vision-language models and image restoration, efficient multimodal inference
 
 ## Publications
 
@@ -59,7 +59,7 @@ Visual localization and place recognition · Vision-language models and image re
 
 **A Descriptor with Rotation Invariance of Environment Expression using Building Boundary of OpenStreetMap.** Y. Zhang, **R. Zuo**, H. Liu, Z. Li, R. Li, Y. Wang. *2024 4th International Conference on Robotics, Automation and Intelligent Control (ICRAIC).* [Paper](https://doi.org/10.1109/ICRAIC65937.2024.00038)
 
-**Segmentation-Guided 6D Pose Stabilization for Efficient Mobile Robotic Container Grasping.** J. Liang, Z. Wei, Y. Zhou, S. Zhao, **R. Zuo**, J. Wu. *2026 19th International Conference on Intelligent Robotics and Applications (ICIRA).* [Program](https://www.icira2026.org/)
+**Segmentation-Guided 6D Pose Stabilization for Efficient Mobile Robotic Container Grasping.** J. Liang, Z. Wei, Y. Zhou, S. Zhao, **R. Zuo**, J. Wu. *2026 19th International Conference on Intelligent Robotics and Applications (ICIRA).* Accepted.
 </div>
 
 <div class="pub-section" markdown="1">
@@ -81,10 +81,17 @@ Visual localization and place recognition · Vision-language models and image re
 <div class="experience-list">
 <div class="home-card" markdown="1">
 ### Communication Agents
-<span class="institution"><img class="institution-icon" src="/images/institutions/pcl.png" alt="" aria-hidden="true">Pengcheng Laboratory</span>
+<span class="institution"><img class="institution-icon" src="/images/institutions/pcl-hd.png" alt="" aria-hidden="true">Pengcheng Laboratory</span>
 <span class="home-meta">Sep 2026 – Present · Research Intern</span>
 
 Exploring agent-based workflows for communication systems, including how agents can coordinate network decisions, use feedback, and adapt to resource constraints.
+</div>
+<div class="home-card" markdown="1">
+### Underwater Image Enhancement
+<span class="institution"><img class="institution-icon" src="/images/institutions/hkust.png" alt="" aria-hidden="true">Hong Kong University of Science and Technology</span>
+<span class="home-meta">Aug 2026 – Present · Research Intern</span>
+
+Exploring image enhancement and restoration for underwater scenes, where light attenuation and color distortion make visual perception challenging.
 </div>
 <div class="home-card" markdown="1">
 ### Visual Computing on Edge Platforms
@@ -94,15 +101,8 @@ Exploring agent-based workflows for communication systems, including how agents 
 Studying lightweight visual place recognition through visual attention and knowledge distillation. Current work also explores KV cache compression for resource-efficient vision-language models.
 </div>
 <div class="home-card" markdown="1">
-### Underwater Image Enhancement
-<span class="institution"><img class="institution-icon" src="/images/institutions/hkust.png" alt="" aria-hidden="true">Hong Kong University of Science and Technology</span>
-<span class="home-meta">Jun 2025 – Present · Research Intern</span>
-
-Exploring image enhancement and restoration for underwater scenes, where light attenuation and color distortion make visual perception challenging.
-</div>
-<div class="home-card" markdown="1">
 ### Low-level Vision with Vision-Language Models
-<span class="institution"><img class="institution-icon" src="/images/institutions/tsinghua.png" alt="" aria-hidden="true">Tsinghua University</span>
+<span class="institution"><img class="institution-icon" src="/images/institutions/tsinghua-hd.png" alt="" aria-hidden="true">Tsinghua University</span>
 <span class="home-meta">Apr 2026 – Aug 2026 · Research Intern</span>
 
 Exploring how semantic guidance from vision-language models can complement image restoration and enhancement, with an emphasis on preserving details useful for downstream visual understanding.
@@ -116,7 +116,7 @@ Investigated physics-aware scene representation for underwater novel-view synthe
 </div>
 <div class="home-card" markdown="1">
 ### Global Localization with Range Sensors and Standard-Definition Maps
-<span class="institution"><img class="institution-icon" src="/images/institutions/sjtu.png" alt="" aria-hidden="true">Shanghai Jiao Tong University</span>
+<span class="institution"><img class="institution-icon" src="/images/institutions/sjtu-hd.png" alt="" aria-hidden="true">Shanghai Jiao Tong University</span>
 <span class="home-meta">Apr 2023 – Mar 2026 · Graduate Researcher</span>
 
 Developed LiDAR-to-OpenStreetMap descriptors and combined localization candidates with odometry and local pose refinement for vehicle positioning.
@@ -140,24 +140,24 @@ Worked on a map-building pipeline for unmanned mining trucks, including sensor c
 ## Education
 
 <ul class="education-list">
-  <li><img class="education-icon" src="/images/institutions/tsinghua.png" alt="" aria-hidden="true"><span>Tsinghua University, Ph.D. in Electronic and Communication Engineering, 2026–Present</span></li>
-  <li><img class="education-icon" src="/images/institutions/sjtu.png" alt="" aria-hidden="true"><span><strong>Shanghai Jiao Tong University</strong>, M.Eng. in Mechanical Engineering, 2023–2026</span></li>
+  <li><img class="education-icon" src="/images/institutions/tsinghua-hd.png" alt="" aria-hidden="true"><span>Tsinghua University, Ph.D. in Electronic and Communication Engineering, 2026–Present</span></li>
+  <li><img class="education-icon" src="/images/institutions/sjtu-hd.png" alt="" aria-hidden="true"><span><strong>Shanghai Jiao Tong University</strong>, M.Eng. in Mechanical Engineering, 2023–2026</span></li>
   <li><img class="education-icon" src="/images/institutions/xjtu.png" alt="" aria-hidden="true"><span><strong>Xi'an Jiaotong University</strong>, B.Eng. in Mechanical Engineering, 2019–2023</span></li>
 </ul>
 
 ### Exchange & Visiting
 
 <ul class="education-list">
-  <li><img class="education-icon" src="/images/institutions/nus.webp" alt="" aria-hidden="true"><span><strong>National University of Singapore</strong>, School of Computing · Summer School in Computer Science · May–Aug 2022</span></li>
-  <li><img class="education-icon" src="/images/institutions/ntu-taiwan.png" alt="" aria-hidden="true"><span><strong>National Taiwan University</strong>, Department of Mechanical Engineering · Semester Exchange · Jul 2021–Jan 2022</span></li>
+  <li><img class="education-icon" src="/images/institutions/nus.webp" alt="" aria-hidden="true"><span><strong>National University of Singapore</strong>, School of Computing, May–Aug 2022</span></li>
+  <li><img class="education-icon" src="/images/institutions/ntu-taiwan.png" alt="" aria-hidden="true"><span><strong>National Taiwan University</strong>, Department of Mechanical Engineering, Jul 2021–Jan 2022</span></li>
 </ul>
 
 ## Honors and Awards
 
-- Shanghai Outstanding Graduate, top 3%, 2026
-- Xi'an Jiaotong University Outstanding Graduate, top 20%, 2023
-- Interdisciplinary Contest in Modeling, Meritorious Winner, top 10%, 2022
-- National Mechanical Innovation Design Competition, First Prize, top 1%, 2022
+- Shanghai Outstanding Graduate, Top 3%, 2026
+- Xi'an Jiaotong University Outstanding Graduate, Top 20%, 2023
+- Interdisciplinary Contest in Modeling, Meritorious Winner, Top 10%, 2022
+- National Mechanical Innovation Design Competition, First Prize, Top 1%, 2022
 
 ## Academic Service
 
@@ -165,6 +165,10 @@ Worked on a map-building pipeline for unmanned mining trucks, including sensor c
 
 - IEEE International Conference on Robotics and Automation (ICRA)
 - AAAI Conference on Artificial Intelligence (AAAI)
+
+**Volunteer**
+
+- 2026 IEEE 15th Image, Video, and Multidimensional Signal Processing Workshop (IVMSP)
 
 ## Visitor Map
 
