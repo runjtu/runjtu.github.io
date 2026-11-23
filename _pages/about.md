@@ -12,12 +12,25 @@ author_profile: true
 .home-card p { margin: .35rem 0 0; }
 .home-meta { color: #66717a; font-size: .91rem; }
 .visitor-map { margin: 1rem 0 2rem; text-align: center; }
+.news-timeline { max-height: 210px; overflow-y: auto; scrollbar-gutter: stable; margin: .8rem 0 1.5rem; padding: .25rem 1rem .25rem 1.4rem; border-left: 2px solid #d9e5eb; }
+.news-item { display: grid; grid-template-columns: 6.3rem minmax(0,1fr); gap: .8rem; padding: .45rem 0; border-bottom: 1px solid #edf1f3; font-size: .96rem; line-height: 1.5; }
+.news-date { color: #477b95; font-weight: 700; white-space: nowrap; }
+.pub-section { margin-top: 1.1rem; }
+.pub-section h3 { margin-bottom: .45rem; font-size: 1.12rem; color: #345b70; }
+.pub-section p { margin: .65rem 0; padding-left: .8rem; border-left: 2px solid #e0e9ed; }
+@media (max-width: 600px) { .news-item { grid-template-columns: 1fr; gap: .1rem; } }
 </style>
 
 <div class="home-lead" markdown="1">
-I am **Runheng Zuo (左润恒)**, a doctoral student at Tsinghua Shenzhen International Graduate School. I received my M.S. from Shanghai Jiao Tong University and my B.S. from Xi'an Jiaotong University. My research spans visual localization, efficient vision models, low-level vision, and intelligent agents for communication systems.
+I am **Runheng Zuo (左润衡)**, a first-year Ph.D. student at **Tsinghua University**, supervised by Prof. [Xiao-Ping Zhang](https://scholar.google.com/citations?user=1fzb_z8AAAAJ) (IEEE Fellow). I received my M.Eng. from Shanghai Jiao Tong University and my B.Eng. from Xi'an Jiaotong University. My research spans visual localization, efficient vision models, low-level vision, and intelligent agents for communication systems.
+</div>
 
-Contact: [zuorh26@mails.tsinghua.edu.cn](mailto:zuorh26@mails.tsinghua.edu.cn) · [GitHub](https://github.com/runjtu/) · [LinkedIn](https://www.linkedin.com/in/runheng-zuo/)
+## News
+
+<div class="news-timeline">
+  <div class="news-item"><span class="news-date">Sep 2026</span><span>Our paper <a href="https://arxiv.org/abs/2609.22820">Beyond Average Error through Oracle-Informed Stress Tests for Time-Series Forecasting</a> is available on arXiv.</span></div>
+  <div class="news-item"><span class="news-date">Mar 2026</span><span>Honored to be named a Shanghai Outstanding Graduate.</span></div>
+  <div class="news-item"><span class="news-date">Jan 2026</span><span>Our paper <em>TinyVPR</em> was accepted to <a href="https://2026.ieee-icra.org/">ICRA 2026</a>.</span></div>
 </div>
 
 ## Research Interests
@@ -25,6 +38,9 @@ Contact: [zuorh26@mails.tsinghua.edu.cn](mailto:zuorh26@mails.tsinghua.edu.cn) �
 Visual localization and place recognition · Vision-language models and image restoration · Communication agents and network optimization
 
 ## Publications
+
+<div class="pub-section" markdown="1">
+### Conference Papers
 
 **OSMPose: Leveraging OpenStreetMap for LiDAR based Global Pose Estimation in Urban Autonomous Driving Scenarios.** R. Zuo, Z. Li, Y. Wang, S. Sun, R. Li, M. Wu. *IEEE ITSC*, 2025.
 
@@ -35,10 +51,21 @@ Visual localization and place recognition · Vision-language models and image re
 **A Descriptor with Rotation Invariance of Environment Expression using Building Boundary of OpenStreetMap.** Y. Zhang, R. Zuo, H. Liu, Z. Li, R. Li, Y. Wang. *ICRAIC*, 2024.
 
 **Segmentation-Guided 6D Pose Stabilization for Efficient Mobile Robotic Container Grasping.** J. Liang, Z. Wei, Y. Zhou, S. Zhao, R. Zuo, J. Wu. *ICIRA*, 2026.
+</div>
+
+<div class="pub-section" markdown="1">
+### Journal Papers
 
 **Odometry-Assisted LiDAR-OpenStreetMap Matching Method for Vehicle Global Positioning.** Z. Li, R. Zuo, Y. Wang, F. Ding, C. Wei, M. Wu. *IEEE Internet of Things Journal*, accepted.
 
 **Open source digital map-assisted ego-localization method for automated vehicles.** Z. Li, Y. Wang, R. Zuo, M. Wu, X. Liu, G. Zhou. *Automotive Engineering*, accepted.
+</div>
+
+<div class="pub-section" markdown="1">
+### Preprints
+
+**[Beyond Average Error through Oracle-Informed Stress Tests for Time-Series Forecasting](https://arxiv.org/abs/2609.22820).** X. Lin, R. Zuo, S. Xu, Q. Tan, H. Lin, X.-P. Zhang. *arXiv:2609.22820*, 2026.
+</div>
 
 ## Research Experience
 
@@ -83,8 +110,19 @@ Built semantic maps, vehicle dynamics models, and planning baselines for the [On
 ## Education
 
 - **Tsinghua University**, Ph.D. in Electronic Information, 2026–2030 (expected)
-- **Shanghai Jiao Tong University**, M.S. in Mechanical Engineering, 2023–2026
-- **Xi'an Jiaotong University**, B.S. in Mechanical Engineering, 2019–2023
+- **Shanghai Jiao Tong University**, M.Eng. in Mechanical Engineering, 2023–2026
+- **Xi'an Jiaotong University**, B.Eng. in Mechanical Engineering, 2019–2023
+
+## Honors and Awards
+
+- Shanghai Outstanding Graduate, 2026
+- Xi'an Jiaotong University Outstanding Graduate, 2023
+- Interdisciplinary Contest in Modeling, Meritorious Winner, 2022
+- National Mechanical Innovation Design Competition, First Prize, 2022
+
+## Academic Service
+
+**Conference reviewer:** IEEE International Conference on Robotics and Automation (ICRA); AAAI Conference on Artificial Intelligence (AAAI).
 
 ## Visitor Map
 

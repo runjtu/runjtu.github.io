@@ -83,10 +83,10 @@ author:
   name             : "Runheng Zuo"
   avatar           : "runheng.jpg"
   bio              : "Ph.D. student at Tsinghua University · Visual localization, vision-language models, communication agents"
-  location         : "Shenzhen, China"
+  location         :
   employer         :
   pubmed           :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=wnVTUY8AAAAJ"
   email            : "zuorh26@mails.tsinghua.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,8 +102,11 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            :
+  linkedin         : "runheng-zuo"
+  orcid            : "https://orcid.org/0009-0002-1040-8037"
+  ieee             : "https://ieeexplore.ieee.org/author/562850516395388"
+  bilibili         : "https://space.bilibili.com/475508016"
+  dblp             : "https://dblp.org/pid/431/2788.html"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
