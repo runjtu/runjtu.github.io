@@ -12,7 +12,12 @@ author_profile: true
 .home-card { position: relative; margin: 0 0 1.1rem; padding: .2rem .4rem .8rem 1.3rem; }
 .home-card::before { content: ""; position: absolute; left: -6px; top: .65rem; width: 10px; height: 10px; border-radius: 50%; background: #477b95; }
 .home-card h3 { margin: .05rem 0 .22rem; font-size: 1.06rem; line-height: 1.35; }
-.home-card .institution { display: block; color: #43576a; font-size: .95rem; margin-bottom: .3rem; }
+.home-card .institution { display: flex; align-items: center; gap: .5rem; color: #43576a; font-size: .95rem; margin-bottom: .3rem; }
+.institution-icon, .education-icon { width: 1.5rem; height: 1.5rem; flex: none; object-fit: contain; border-radius: .2rem; }
+.institution-icon[src$="tongji.jpg"] { object-fit: cover; object-position: left center; }
+.institution-icon[src$="sinotruk.webp"] { object-fit: cover; object-position: center 25%; }
+.education-list { list-style: none; padding-left: 0; }
+.education-list li { display: flex; align-items: center; gap: .7rem; margin: .55rem 0; }
 .home-card p { margin: .35rem 0 0; line-height: 1.6; }
 .home-meta { color: #66717a; font-size: .91rem; }
 .visitor-map { margin: 1rem 0 2rem; text-align: center; }
@@ -75,62 +80,57 @@ Visual localization and place recognition · Vision-language models and image re
 
 <div class="experience-list">
 <div class="home-card" markdown="1">
-### Low-level Vision with Vision-Language Models
-<span class="institution">Tsinghua University</span>
-<span class="home-meta">Apr 2026 – Aug 2026 · Research Intern</span>
-
-Exploring how semantic guidance from vision-language models can complement image restoration and enhancement, with an emphasis on preserving details useful for downstream visual understanding.
-</div>
-
-<div class="home-card" markdown="1">
 ### Communication Agents
-<span class="institution">Pengcheng Laboratory</span>
+<span class="institution"><img class="institution-icon" src="/images/institutions/pcl.png" alt="" aria-hidden="true">Pengcheng Laboratory</span>
 <span class="home-meta">Sep 2026 – Present · Research Intern</span>
 
 Exploring agent-based workflows for communication systems, including how agents can coordinate network decisions, use feedback, and adapt to resource constraints.
 </div>
-
 <div class="home-card" markdown="1">
 ### Visual Computing on Edge Platforms
-<span class="institution">University of Chinese Academy of Sciences</span>
-<span class="home-meta">Jan 2025 – Present · Remote Research Intern</span>
+<span class="institution"><img class="institution-icon" src="/images/institutions/ucas.png" alt="" aria-hidden="true">University of Chinese Academy of Sciences</span>
+<span class="home-meta">Jan 2025 – Present · Research Intern</span>
 
 Studying lightweight visual place recognition through visual attention and knowledge distillation. Current work also explores KV cache compression for resource-efficient vision-language models.
 </div>
-
-<div class="home-card" markdown="1">
-### Global Localization with Range Sensors and Standard-Definition Maps
-<span class="institution">Shanghai Jiao Tong University</span>
-<span class="home-meta">Apr 2023 – Mar 2026 · Graduate Researcher</span>
-
-Developed LiDAR-to-OpenStreetMap descriptors and combined localization candidates with odometry and local pose refinement for vehicle positioning.
-</div>
-
-<div class="home-card" markdown="1">
-### 3D Gaussian Splatting for Underwater Scene Reconstruction
-<span class="institution">Chinese University of Hong Kong</span>
-<span class="home-meta">Jun 2025 – Present · Research Intern</span>
-
-Investigated physics-aware scene representation for underwater novel-view synthesis and restoration.
-</div>
-
-<div class="home-card" markdown="1">
-### Self-Driving Simulation in Unstructured Terrains
-<span class="institution">Tongji University</span>
-<span class="home-meta">Nov 2023 – Nov 2024 · Remote Research Intern</span>
-
-Built semantic maps, vehicle dynamics models, and planning baselines for the [OnSite-Mine benchmark](https://github.com/runjtu/OnSite-unstructured-road-benchmark).
-</div>
 <div class="home-card" markdown="1">
 ### Underwater Image Enhancement
-<span class="institution">Hong Kong University of Science and Technology</span>
+<span class="institution"><img class="institution-icon" src="/images/institutions/hkust.png" alt="" aria-hidden="true">Hong Kong University of Science and Technology</span>
 <span class="home-meta">Jun 2025 – Present · Research Intern</span>
 
 Exploring image enhancement and restoration for underwater scenes, where light attenuation and color distortion make visual perception challenging.
 </div>
 <div class="home-card" markdown="1">
+### Low-level Vision with Vision-Language Models
+<span class="institution"><img class="institution-icon" src="/images/institutions/tsinghua.png" alt="" aria-hidden="true">Tsinghua University</span>
+<span class="home-meta">Apr 2026 – Aug 2026 · Research Intern</span>
+
+Exploring how semantic guidance from vision-language models can complement image restoration and enhancement, with an emphasis on preserving details useful for downstream visual understanding.
+</div>
+<div class="home-card" markdown="1">
+### 3D Gaussian Splatting for Underwater Scene Reconstruction
+<span class="institution"><img class="institution-icon" src="/images/institutions/cuhk.png" alt="" aria-hidden="true">Chinese University of Hong Kong</span>
+<span class="home-meta">Jun 2025 – Mar 2026 · Research Intern</span>
+
+Investigated physics-aware scene representation for underwater novel-view synthesis and restoration.
+</div>
+<div class="home-card" markdown="1">
+### Global Localization with Range Sensors and Standard-Definition Maps
+<span class="institution"><img class="institution-icon" src="/images/institutions/sjtu.png" alt="" aria-hidden="true">Shanghai Jiao Tong University</span>
+<span class="home-meta">Apr 2023 – Mar 2026 · Graduate Researcher</span>
+
+Developed LiDAR-to-OpenStreetMap descriptors and combined localization candidates with odometry and local pose refinement for vehicle positioning.
+</div>
+<div class="home-card" markdown="1">
+### Self-Driving Simulation in Unstructured Terrains
+<span class="institution"><img class="institution-icon" src="/images/institutions/tongji.jpg" alt="" aria-hidden="true">Tongji University</span>
+<span class="home-meta">Nov 2023 – Nov 2024 · Research Intern</span>
+
+Built semantic maps, vehicle dynamics models, and planning baselines for the [OnSite-Mine benchmark](https://github.com/runjtu/OnSite-unstructured-road-benchmark).
+</div>
+<div class="home-card" markdown="1">
 ### Map Maintenance for Self-Driving Trucks
-<span class="institution">SJTU–SINOTRUK Joint Laboratory</span>
+<span class="institution"><img class="institution-icon" src="/images/institutions/sinotruk.webp" alt="" aria-hidden="true">SJTU–SINOTRUK Joint Laboratory</span>
 <span class="home-meta">Jul 2023 – Oct 2023 · LiDAR Mapping Intern</span>
 
 Worked on a map-building pipeline for unmanned mining trucks, including sensor calibration, map transmission, and incremental map updates.
@@ -139,9 +139,11 @@ Worked on a map-building pipeline for unmanned mining trucks, including sensor c
 
 ## Education
 
-- Tsinghua University, Ph.D. in ECE, 2026–Now
-- **Shanghai Jiao Tong University**, M.Eng. in Mechanical Engineering, 2023–2026
-- **Xi'an Jiaotong University**, B.Eng. in Mechanical Engineering, 2019–2023
+<ul class="education-list">
+  <li><img class="education-icon" src="/images/institutions/tsinghua.png" alt="" aria-hidden="true"><span>Tsinghua University, Ph.D. in Electronic and Communication Engineering, 2026–Present</span></li>
+  <li><img class="education-icon" src="/images/institutions/sjtu.png" alt="" aria-hidden="true"><span><strong>Shanghai Jiao Tong University</strong>, M.Eng. in Mechanical Engineering, 2023–2026</span></li>
+  <li><img class="education-icon" src="/images/institutions/xjtu.png" alt="" aria-hidden="true"><span><strong>Xi'an Jiaotong University</strong>, B.Eng. in Mechanical Engineering, 2019–2023</span></li>
+</ul>
 
 ## Honors and Awards
 
