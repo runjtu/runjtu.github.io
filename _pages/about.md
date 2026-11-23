@@ -1,50 +1,94 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "About me"
+title: ""
+browser_title: "Runheng Zuo | Academic Homepage"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+<style>
+.page__content h2 { margin-top: 2rem; border-bottom: 1px solid #e6e9ed; padding-bottom: .35rem; }
+.home-lead { font-size: 1.08rem; line-height: 1.75; }
+.home-card { padding: .8rem 1rem; margin: .7rem 0; border-left: 3px solid #477b95; background: #f8fafb; }
+.home-card p { margin: .35rem 0 0; }
+.home-meta { color: #66717a; font-size: .91rem; }
+.visitor-map { margin: 1rem 0 2rem; text-align: center; }
+</style>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<div class="home-lead" markdown="1">
+I am **Runheng Zuo (左润恒)**, a doctoral student at Tsinghua Shenzhen International Graduate School. I received my M.S. from Shanghai Jiao Tong University and my B.S. from Xi'an Jiaotong University. My research spans visual localization, efficient vision models, low-level vision, and intelligent agents for communication systems.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Contact: [zuorh26@mails.tsinghua.edu.cn](mailto:zuorh26@mails.tsinghua.edu.cn) · [GitHub](https://github.com/runjtu/) · [LinkedIn](https://www.linkedin.com/in/runheng-zuo/)
+</div>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+## Research Interests
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Visual localization and place recognition · Vision-language models and image restoration · Communication agents and network optimization
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+## Publications
 
-**Markdown generator**
+**OSMPose: Leveraging OpenStreetMap for LiDAR based Global Pose Estimation in Urban Autonomous Driving Scenarios.** R. Zuo, Z. Li, Y. Wang, S. Sun, R. Li, M. Wu. *IEEE ITSC*, 2025.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+**TinyVPR: Distilling Correct and Confusing Knowledge for Lightweight Visual Place Recognition.** Z. Yang, R. Zuo, X. Yang, Z. Wang, R. Dou, L. Liu, S. Yu. *IEEE ICRA*, 2026.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**ReUGS: Reconstruction of Unstructured Scenes Based on Geometry-constraints Gaussian Splatting Representation.** S. Sun, R. Li, Y. Wang, B. Wang, R. Zuo, Y. Zhang. *IEEE ITSC*, 2025.
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+**A Descriptor with Rotation Invariance of Environment Expression using Building Boundary of OpenStreetMap.** Y. Zhang, R. Zuo, H. Liu, Z. Li, R. Li, Y. Wang. *ICRAIC*, 2024.
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**Segmentation-Guided 6D Pose Stabilization for Efficient Mobile Robotic Container Grasping.** J. Liang, Z. Wei, Y. Zhou, S. Zhao, R. Zuo, J. Wu. *ICIRA*, 2026.
+
+**Odometry-Assisted LiDAR-OpenStreetMap Matching Method for Vehicle Global Positioning.** Z. Li, R. Zuo, Y. Wang, F. Ding, C. Wei, M. Wu. *IEEE Internet of Things Journal*, accepted.
+
+**Open source digital map-assisted ego-localization method for automated vehicles.** Z. Li, Y. Wang, R. Zuo, M. Wu, X. Liu, G. Zhou. *Automotive Engineering*, accepted.
+
+## Research Experience
+
+<div class="home-card" markdown="1">
+**Low-level Vision with Vision-Language Models** · Tsinghua University<br>
+<span class="home-meta">Apr 2026 – Aug 2026 · Research direction</span>
+
+Exploring how semantic guidance from vision-language models can complement image restoration and enhancement, with an emphasis on preserving details useful for downstream visual understanding.
+</div>
+
+<div class="home-card" markdown="1">
+**Communication Agents** · Pengcheng Laboratory<br>
+<span class="home-meta">Sep 2026 – Present · Research direction</span>
+
+Exploring agent-based workflows for communication systems, including how agents can coordinate network decisions, use feedback, and adapt to resource constraints.
+</div>
+
+<div class="home-card" markdown="1">
+**Visual Computing on Edge Platforms** · University of Chinese Academy of Sciences
+
+Studied lightweight visual place recognition through visual attention and knowledge distillation for efficient deployment.
+</div>
+
+<div class="home-card" markdown="1">
+**Global Localization with Range Sensors and Standard-Definition Maps** · Shanghai Jiao Tong University
+
+Developed LiDAR-to-OpenStreetMap descriptors and combined localization candidates with odometry and local pose refinement for vehicle positioning.
+</div>
+
+<div class="home-card" markdown="1">
+**3D Gaussian Splatting for Underwater Scene Reconstruction** · Chinese University of Hong Kong
+
+Investigated physics-aware scene representation for underwater novel-view synthesis and restoration.
+</div>
+
+<div class="home-card" markdown="1">
+**Self-Driving Simulation in Unstructured Terrains** · Tongji University
+
+Built semantic maps, vehicle dynamics models, and planning baselines for the [OnSite-Mine benchmark](https://github.com/runjtu/OnSite-unstructured-road-benchmark).
+</div>
+
+## Education
+
+- **Tsinghua University**, Ph.D. in Electronic Information, 2026–2030 (expected)
+- **Shanghai Jiao Tong University**, M.S. in Mechanical Engineering, 2023–2026
+- **Xi'an Jiaotong University**, B.S. in Mechanical Engineering, 2019–2023
+
+## Visitor Map
+
+<div class="visitor-map">
+<script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?d=gvdG3wqO_34HaoI9NHTrI3ttd6h1svlPiiN28h_Z8O8&amp;cl=ffffff&amp;w=a"></script>
+<noscript><a href="https://mapmyvisitors.com/web/1c9mf" title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=gvdG3wqO_34HaoI9NHTrI3ttd6h1svlPiiN28h_Z8O8&amp;cl=ffffff" alt="Visitor map"></a></noscript>
+</div>
