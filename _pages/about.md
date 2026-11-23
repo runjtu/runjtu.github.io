@@ -15,6 +15,8 @@ author_profile: true
 .home-card .institution { display: flex; align-items: center; gap: .5rem; color: #43576a; font-size: .95rem; margin-bottom: .3rem; }
 .institution-icon, .education-icon { width: 1.75rem; height: 1.75rem; flex: none; object-fit: contain; border-radius: .2rem; }
 .institution-icon[src$="tongji-hd.png"] { width: 2rem; height: 2rem; }
+.institution-icon[src$="pcl-hd.png"] { background: #fff; clip-path: circle(49% at 50% 50%); }
+.education-icon[src$="xjtu.png"] { background: #fff; }
 .institution-icon[src$="sinotruk.webp"] { object-fit: cover; object-position: center 25%; }
 .education-list { list-style: none; padding-left: 0; }
 .education-list li { display: flex; align-items: center; gap: .7rem; margin: .55rem 0; }
@@ -59,7 +61,7 @@ General place recognition, vision-language models and image restoration, efficie
 
 **A Descriptor with Rotation Invariance of Environment Expression using Building Boundary of OpenStreetMap.** Y. Zhang, **R. Zuo**, H. Liu, Z. Li, R. Li, Y. Wang. *2024 4th International Conference on Robotics, Automation and Intelligent Control (ICRAIC).* [Paper](https://doi.org/10.1109/ICRAIC65937.2024.00038)
 
-**Segmentation-Guided 6D Pose Stabilization for Efficient Mobile Robotic Container Grasping.** J. Liang, Z. Wei, Y. Zhou, S. Zhao, **R. Zuo**, J. Wu. *2026 19th International Conference on Intelligent Robotics and Applications (ICIRA).* Accepted.
+**Segmentation-Guided 6D Pose Stabilization for Efficient Mobile Robotic Container Grasping.** J. Liang, Z. Wei, Y. Zhou, S. Zhao, **R. Zuo**, J. Wu. *2026 19th International Conference on Intelligent Robotics and Applications (ICIRA).* accepted.
 </div>
 
 <div class="pub-section" markdown="1">
@@ -67,7 +69,7 @@ General place recognition, vision-language models and image restoration, efficie
 
 **Odometry-Assisted LiDAR-OpenStreetMap Matching Method for Vehicle Global Positioning.** Z. Li, **R. Zuo**, Y. Wang, F. Ding, C. Wei, M. Wu. *IEEE Internet of Things Journal*, 2026. [Paper](https://doi.org/10.1109/JIOT.2026.3659142)
 
-**Open source digital map-assisted ego-localization method for automated vehicles.** Z. Li, Y. Wang, **R. Zuo**, M. Wu, X. Liu, G. Zhou. *Automotive Engineering*, accepted.
+**Standard-Definition Digital Map Assisted Global Localization Method for Vehicles.** Z. Li, Y. Wang, X. Liu, **R. Zuo**, M. Wu, F. Zhu. *Automotive Engineering*, 48(8), 1907–1916. [Paper](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wnVTUY8AAAAJ&citation_for_view=wnVTUY8AAAAJ:eQOLeE2rZwMC)
 </div>
 
 <div class="pub-section" markdown="1">
@@ -75,6 +77,10 @@ General place recognition, vision-language models and image restoration, efficie
 
 **Beyond Average Error through Oracle-Informed Stress Tests for Time-Series Forecasting.** X. Lin, **R. Zuo**, S. Xu, Q. Tan, H. Lin, X.-P. Zhang. *arXiv:2609.22820*, 2026. [Paper](https://arxiv.org/abs/2609.22820)
 </div>
+
+## Patents
+
+**Automatic driving global position estimation method and system based on standard definition electronic map static ground object association.** Z. Li, Y. Wang, **R. Zuo**, Y. Zhang, R. Zhang, R. Li, M. Wu. *CN Patent CN119437257A.* [Patent](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=wnVTUY8AAAAJ&citation_for_view=wnVTUY8AAAAJ:u-x6o8ySG0sC)
 
 ## Research Experience
 
