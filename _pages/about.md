@@ -26,7 +26,7 @@ author_profile: true
 </style>
 
 <div class="home-lead" markdown="1">
-I am **Runheng Zuo (左润衡)**, a first-year Ph.D. student at Tsinghua University, supervised by Prof. [Xiao-Ping Zhang](https://scholar.google.com/citations?user=1fzb_z8AAAAJ) (IEEE Fellow). I received my M.Eng. from Shanghai Jiao Tong University and my B.Eng. from Xi'an Jiaotong University. My research spans visual localization, efficient vision models, low-level vision, and intelligent agents for communication systems.
+I am **Runheng Zuo (左润衡)**, a first-year Ph.D. student at Tsinghua University, supervised by Prof. [Xiao-Ping Zhang](https://scholar.google.com/citations?user=1fzb_z8AAAAJ) (IEEE Fellow). I received my M.Eng. from Shanghai Jiao Tong University and my B.Eng. from Xi'an Jiaotong University. My research spans visual localization, vision-language models, low-level vision, and efficient multimodal inference.
 </div>
 
 ## News
@@ -39,28 +39,28 @@ I am **Runheng Zuo (左润衡)**, a first-year Ph.D. student at Tsinghua Univers
 
 ## Research Interests
 
-Visual localization and place recognition · Vision-language models and image restoration · Communication agents and network optimization
+Visual localization and place recognition · Vision-language models and image restoration · Efficient multimodal inference
 
 ## Publications
 
 <div class="pub-section" markdown="1">
 ### Conference Papers
 
-**[OSMPose: Leveraging OpenStreetMap for LiDAR based Global Pose Estimation in Urban Autonomous Driving Scenarios.](https://dblp.org/rec/conf/itsc/ZuoLWSLW25)** **R. Zuo**, Z. Li, Y. Wang, S. Sun, R. Li, M. Wu. *IEEE ITSC*, 2025.
+**OSMPose: Leveraging OpenStreetMap for LiDAR based Global Pose Estimation in Urban Autonomous Driving Scenarios.** **R. Zuo**, Z. Li, Y. Wang, S. Sun, R. Li, M. Wu. *2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC).* [Paper](https://doi.org/10.1109/ITSC60802.2025.11423036)
 
-**[TinyVPR: Distilling Correct and Confusing Knowledge for Lightweight Visual Place Recognition.](https://dblp.org/rec/conf/icra/YangZYDWLY26)** Z. Yang, **R. Zuo**, X. Yang, Z. Wang, R. Dou, L. Liu, S. Yu. *IEEE ICRA*, 2026.
+**TinyVPR: Distilling Correct and Confusing Knowledge for Lightweight Visual Place Recognition.** Z. Yang, **R. Zuo**, X. Yang, Z. Wang, R. Dou, L. Liu, S. Yu. *2026 IEEE International Conference on Robotics and Automation (ICRA).* [Paper](https://dblp.org/rec/conf/icra/YangZYDWLY26)
 
-**[ReUGS: Reconstruction of Unstructured Scenes Based on Geometry-constraints Gaussian Splatting Representation.](https://dblp.org/rec/conf/itsc/SunLWWZZ25)** S. Sun, R. Li, Y. Wang, B. Wang, **R. Zuo**, Y. Zhang. *IEEE ITSC*, 2025.
+**ReUGS: Reconstruction of Unstructured Scenes Based on Geometry-constraints Gaussian Splatting Representation.** S. Sun, R. Li, Y. Wang, B. Wang, **R. Zuo**, Y. Zhang. *2025 IEEE 28th International Conference on Intelligent Transportation Systems (ITSC).* [Paper](https://dblp.org/rec/conf/itsc/SunLWWZZ25)
 
-**[A Descriptor with Rotation Invariance of Environment Expression using Building Boundary of OpenStreetMap.](https://doi.org/10.1109/ICRAIC65937.2024.00038)** Y. Zhang, **R. Zuo**, H. Liu, Z. Li, R. Li, Y. Wang. *ICRAIC*, 2024.
+**A Descriptor with Rotation Invariance of Environment Expression using Building Boundary of OpenStreetMap.** Y. Zhang, **R. Zuo**, H. Liu, Z. Li, R. Li, Y. Wang. *2024 4th International Conference on Robotics, Automation and Intelligent Control (ICRAIC).* [Paper](https://doi.org/10.1109/ICRAIC65937.2024.00038)
 
-**[Segmentation-Guided 6D Pose Stabilization for Efficient Mobile Robotic Container Grasping.](https://www.icira2026.org/)** J. Liang, Z. Wei, Y. Zhou, S. Zhao, **R. Zuo**, J. Wu. *ICIRA*, 2026.
+**Segmentation-Guided 6D Pose Stabilization for Efficient Mobile Robotic Container Grasping.** J. Liang, Z. Wei, Y. Zhou, S. Zhao, **R. Zuo**, J. Wu. *2026 19th International Conference on Intelligent Robotics and Applications (ICIRA).* [Program](https://www.icira2026.org/)
 </div>
 
 <div class="pub-section" markdown="1">
 ### Journal Papers
 
-**[Odometry-Assisted LiDAR-OpenStreetMap Matching Method for Vehicle Global Positioning.](https://doi.org/10.1109/JIOT.2026.3659142)** Z. Li, **R. Zuo**, Y. Wang, F. Ding, C. Wei, M. Wu. *IEEE Internet of Things Journal*, 2026.
+**Odometry-Assisted LiDAR-OpenStreetMap Matching Method for Vehicle Global Positioning.** Z. Li, **R. Zuo**, Y. Wang, F. Ding, C. Wei, M. Wu. *IEEE Internet of Things Journal*, 2026. [Paper](https://doi.org/10.1109/JIOT.2026.3659142)
 
 **Open source digital map-assisted ego-localization method for automated vehicles.** Z. Li, Y. Wang, **R. Zuo**, M. Wu, X. Liu, G. Zhou. *Automotive Engineering*, accepted.
 </div>
@@ -68,7 +68,7 @@ Visual localization and place recognition · Vision-language models and image re
 <div class="pub-section" markdown="1">
 ### Preprints
 
-**[Beyond Average Error through Oracle-Informed Stress Tests for Time-Series Forecasting](https://arxiv.org/abs/2609.22820).** X. Lin, **R. Zuo**, S. Xu, Q. Tan, H. Lin, X.-P. Zhang. *arXiv:2609.22820*, 2026.
+**Beyond Average Error through Oracle-Informed Stress Tests for Time-Series Forecasting.** X. Lin, **R. Zuo**, S. Xu, Q. Tan, H. Lin, X.-P. Zhang. *arXiv:2609.22820*, 2026. [Paper](https://arxiv.org/abs/2609.22820)
 </div>
 
 ## Research Experience
@@ -77,7 +77,7 @@ Visual localization and place recognition · Vision-language models and image re
 <div class="home-card" markdown="1">
 ### Low-level Vision with Vision-Language Models
 <span class="institution">Tsinghua University</span>
-<span class="home-meta">Apr 2026 – Aug 2026 · Research direction</span>
+<span class="home-meta">Apr 2026 – Aug 2026 · Research Intern</span>
 
 Exploring how semantic guidance from vision-language models can complement image restoration and enhancement, with an emphasis on preserving details useful for downstream visual understanding.
 </div>
@@ -85,7 +85,7 @@ Exploring how semantic guidance from vision-language models can complement image
 <div class="home-card" markdown="1">
 ### Communication Agents
 <span class="institution">Pengcheng Laboratory</span>
-<span class="home-meta">Sep 2026 – Present · Research direction</span>
+<span class="home-meta">Sep 2026 – Present · Research Intern</span>
 
 Exploring agent-based workflows for communication systems, including how agents can coordinate network decisions, use feedback, and adapt to resource constraints.
 </div>
@@ -93,13 +93,15 @@ Exploring agent-based workflows for communication systems, including how agents 
 <div class="home-card" markdown="1">
 ### Visual Computing on Edge Platforms
 <span class="institution">University of Chinese Academy of Sciences</span>
+<span class="home-meta">Jan 2025 – Present · Remote Research Intern</span>
 
-Studied lightweight visual place recognition through visual attention and knowledge distillation for efficient deployment.
+Studying lightweight visual place recognition through visual attention and knowledge distillation. Current work also explores KV cache compression for resource-efficient vision-language models.
 </div>
 
 <div class="home-card" markdown="1">
 ### Global Localization with Range Sensors and Standard-Definition Maps
 <span class="institution">Shanghai Jiao Tong University</span>
+<span class="home-meta">Apr 2023 – Mar 2026 · Graduate Researcher</span>
 
 Developed LiDAR-to-OpenStreetMap descriptors and combined localization candidates with odometry and local pose refinement for vehicle positioning.
 </div>
@@ -107,6 +109,7 @@ Developed LiDAR-to-OpenStreetMap descriptors and combined localization candidate
 <div class="home-card" markdown="1">
 ### 3D Gaussian Splatting for Underwater Scene Reconstruction
 <span class="institution">Chinese University of Hong Kong</span>
+<span class="home-meta">Jun 2025 – Present · Research Intern</span>
 
 Investigated physics-aware scene representation for underwater novel-view synthesis and restoration.
 </div>
@@ -114,23 +117,38 @@ Investigated physics-aware scene representation for underwater novel-view synthe
 <div class="home-card" markdown="1">
 ### Self-Driving Simulation in Unstructured Terrains
 <span class="institution">Tongji University</span>
+<span class="home-meta">Nov 2023 – Nov 2024 · Remote Research Intern</span>
 
 Built semantic maps, vehicle dynamics models, and planning baselines for the [OnSite-Mine benchmark](https://github.com/runjtu/OnSite-unstructured-road-benchmark).
+</div>
+<div class="home-card" markdown="1">
+### Underwater Image Enhancement
+<span class="institution">Hong Kong University of Science and Technology</span>
+<span class="home-meta">Jun 2025 – Present · Research Intern</span>
+
+Exploring image enhancement and restoration for underwater scenes, where light attenuation and color distortion make visual perception challenging.
+</div>
+<div class="home-card" markdown="1">
+### Map Maintenance for Self-Driving Trucks
+<span class="institution">SJTU–SINOTRUK Joint Laboratory</span>
+<span class="home-meta">Jul 2023 – Oct 2023 · LiDAR Mapping Intern</span>
+
+Worked on a map-building pipeline for unmanned mining trucks, including sensor calibration, map transmission, and incremental map updates.
 </div>
 </div>
 
 ## Education
 
-- Tsinghua University, Ph.D., Shenzhen Key Laboratory of Ubiquitous Data Enabling, 2026–2030 (expected)
+- Tsinghua University, Ph.D. in ECE, 2026–Now
 - **Shanghai Jiao Tong University**, M.Eng. in Mechanical Engineering, 2023–2026
 - **Xi'an Jiaotong University**, B.Eng. in Mechanical Engineering, 2019–2023
 
 ## Honors and Awards
 
-- Shanghai Outstanding Graduate, 2026
-- Xi'an Jiaotong University Outstanding Graduate, 2023
-- Interdisciplinary Contest in Modeling, Meritorious Winner, 2022
-- National Mechanical Innovation Design Competition, First Prize, 2022
+- Shanghai Outstanding Graduate, top 3%, 2026
+- Xi'an Jiaotong University Outstanding Graduate, top 20%, 2023
+- Interdisciplinary Contest in Modeling, Meritorious Winner, top 10%, 2022
+- National Mechanical Innovation Design Competition, First Prize, top 1%, 2022
 
 ## Academic Service
 
