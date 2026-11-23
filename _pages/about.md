@@ -33,8 +33,8 @@ I am **Runheng Zuo (左润衡)**, a first-year Ph.D. student at Tsinghua Univers
 
 <div class="news-timeline">
   <div class="news-item"><span class="news-date">Mar 2026</span><span>Honored to be named a Shanghai Outstanding Graduate.</span></div>
-  <div class="news-item"><span class="news-date">Jan 2026</span><span>🎉 Our paper <a href="https://dblp.org/rec/conf/icra/YangZYDWLY26"><em>TinyVPR</em></a>, on distilling both correct and confusing retrieval knowledge for lightweight visual place recognition, was accepted by <strong>ICRA 2026</strong>!</span></div>
-  <div class="news-item"><span class="news-date">Nov 2025</span><span>Our papers <a href="https://dblp.org/rec/conf/itsc/ZuoLWSLW25"><em>OSMPose</em></a> and <a href="https://dblp.org/rec/conf/itsc/SunLWWZZ25"><em>ReUGS</em></a> appeared at <strong>ITSC 2025</strong>.</span></div>
+  <div class="news-item"><span class="news-date">Jan 2026</span><span>🎉 Our lightweight visual place recognition paper <a href="https://dblp.org/rec/conf/icra/YangZYDWLY26"><em>TinyVPR</em></a> was accepted by <strong>ICRA 2026</strong>!</span></div>
+  <div class="news-item"><span class="news-date">Nov 2025</span><span>Our papers <a href="https://dblp.org/rec/conf/itsc/ZuoLWSLW25"><em>OSMPose</em></a> and <a href="https://dblp.org/rec/conf/itsc/SunLWWZZ25"><em>ReUGS</em></a> appeared at <strong>ITSC 2025</strong>. OSMPose uses OpenStreetMap to assist LiDAR-based global localization; ReUGS applies geometry-constrained Gaussian Splatting to reconstruct unstructured scenes.</span></div>
 </div>
 
 ## Research Interests
@@ -152,7 +152,10 @@ Worked on a map-building pipeline for unmanned mining trucks, including sensor c
 
 ## Academic Service
 
-**Conference reviewer:** IEEE International Conference on Robotics and Automation (ICRA); AAAI Conference on Artificial Intelligence (AAAI).
+**Conference reviewer**
+
+- IEEE International Conference on Robotics and Automation (ICRA)
+- AAAI Conference on Artificial Intelligence (AAAI)
 
 ## Visitor Map
 
