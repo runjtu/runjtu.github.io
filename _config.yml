@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Runheng Zuo / Host"
+title                    : "Runheng Zuo"
 title_separator          : "-"
 name                     : &name "Runheng Zuo"
 description              : &description "Academic homepage of Runheng Zuo"
